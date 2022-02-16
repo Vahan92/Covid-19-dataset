@@ -25,7 +25,7 @@ export const MainWrapper = styled(Paper)`
   }
 `;
 
-export const Container = styled(Paper)`
+export const Container = styled.div`
   width: 80%;
   height: 80%;
   margin: auto;
@@ -41,7 +41,7 @@ export const Container = styled(Paper)`
   }
 `;
 
-export const Controls = styled(Paper)`
+export const Controls = styled.div`
   &&& {
     display: flex;
     justify-content: space-between;
